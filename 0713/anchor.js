@@ -16,7 +16,7 @@ anchorList();
 function anchorReverse() {
   var toPrint="";
   var nodeList=document.getElementsByTagName("a");
-  for(var i=nodeList.length;i>0;i--) {
+  for(var i=nodeList.length-1;i>0;i--) {
     toPrint += nodeList[i] + ", ";
   }
   console.log(toPrint);
